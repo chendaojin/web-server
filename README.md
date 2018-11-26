@@ -88,7 +88,7 @@
 
 - 日志记录器使用log4j-1.2.17.jar by Apache
 - Xml解析器使用dom4j-1.6.1.jar by Apache
-- GUI界面所有图标均是从http://www.easyicon.net/下载后进行一定的处理后得到的。
+- GUI界面所有图标均是从http://www.easyicon.net/ 下载后进行一定的处理后得到的。
 
 ## 作者
 
