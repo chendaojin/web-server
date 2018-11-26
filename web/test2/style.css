@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;}
+	
+*{
+	font-family:"microsoft yahei"}
+	
+p{
+	text-align:center;
+	margin:0;
+	padding:20px 0 0;
+	font-weight:200;}
+	
+.p_style{
+	font-size:24px;
+	font-weight:100;}
+
+.title{
+	padding:25px 0 38px;
+	background-color:rgba(0,0,0,0.87);
+	color:#999;}
+
+.title_{
+	padding:25px 0 38px;
+	background-color:rgba(0,0,0,0.87);
+	color:#999;
+	margin-top:-5px;}	
+
+
+audio {
+	width:100%;}
+	
+.audio_style{
+	
+	padding:100px 0 100px;
+	background-color:rgba(204,204,204,0.7);
+	}
+	
+.video_style{
+	margin-top:-3px;
+	margin-button:10px;
+	background-color:rgba(204,204,204,0.7);
+	}
+	
+video{
+	width:100%;
+	height:735px;
+	}
+	
+object{
+	background-color:rgba(204,204,204,0.7);
+	width:100%;
+	height:300px;}
+	
+.object_style{
+	width:100%;
+	height:100%;
+	padding:100px 0 90px 0;
+	text-align:center;
+	background-color:rgba(204,204,204,0.7);}

@@ -1,0 +1,617 @@
+2015-06-25 13:19:48,365
+receive Request from 0:0:0:0:0:0:0:1:21429
+GET /test1 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:19:48,368
+send Response to 0:0:0:0:0:0:0:1:21429
+HTTP/1.1 307 Temporary Redirect
+
+
+2015-06-25 13:19:48,369
+receive Request from 0:0:0:0:0:0:0:1:21430
+GET /test1/index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,372
+send Response to 0:0:0:0:0:0:0:1:21430
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,376
+receive Request from 0:0:0:0:0:0:0:1:21432
+GET /test1/bootstrap.min.css HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,376
+receive Request from 0:0:0:0:0:0:0:1:21431
+GET /test1/style.css HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,376
+receive Request from 0:0:0:0:0:0:0:1:21433
+GET /test1/jquery.min.js HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,377
+receive Request from 0:0:0:0:0:0:0:1:21434
+GET /test1/bootstrap.min.js HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,378
+send Response to 0:0:0:0:0:0:0:1:21433
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,378
+send Response to 0:0:0:0:0:0:0:1:21431
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,379
+send Response to 0:0:0:0:0:0:0:1:21434
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,379
+send Response to 0:0:0:0:0:0:0:1:21432
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,487
+receive Request from 0:0:0:0:0:0:0:1:21436
+GET /test1/21.png HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,488
+receive Request from 0:0:0:0:0:0:0:1:21435
+GET /test1/11.png HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,490
+send Response to 0:0:0:0:0:0:0:1:21436
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,490
+receive Request from 0:0:0:0:0:0:0:1:21438
+GET /test1/hfut.png HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,491
+receive Request from 0:0:0:0:0:0:0:1:21437
+GET /test1/22.png HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,491
+send Response to 0:0:0:0:0:0:0:1:21435
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,491
+receive Request from 0:0:0:0:0:0:0:1:21439
+GET /test1/stiea.png HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,491
+send Response to 0:0:0:0:0:0:0:1:21438
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,492
+receive Request from 0:0:0:0:0:0:0:1:21440
+GET /test1/back.jpg HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test1/style.css
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:33:27 GMT
+
+
+2015-06-25 13:19:48,492
+send Response to 0:0:0:0:0:0:0:1:21437
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,493
+send Response to 0:0:0:0:0:0:0:1:21439
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,495
+send Response to 0:0:0:0:0:0:0:1:21440
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:48,515
+receive Request from 0:0:0:0:0:0:0:1:21441
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/test1/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:19:48,516
+send Response to 0:0:0:0:0:0:0:1:21441
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:19:51,756
+receive Request from 0:0:0:0:0:0:0:1:21443
+GET /test2 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:19:51,756
+send Response to 0:0:0:0:0:0:0:1:21443
+HTTP/1.1 307 Temporary Redirect
+
+
+2015-06-25 13:19:51,757
+receive Request from 0:0:0:0:0:0:0:1:21444
+GET /test2/index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:27:36 GMT
+
+
+2015-06-25 13:19:51,758
+send Response to 0:0:0:0:0:0:0:1:21444
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:51,767
+receive Request from 0:0:0:0:0:0:0:1:21445
+GET /test2/style.css HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/css,*/*;q=0.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test2/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:27:36 GMT
+
+
+2015-06-25 13:19:51,767
+receive Request from 0:0:0:0:0:0:0:1:21446
+GET /test2/resource/top_banner.jpg HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Referer: http://localhost/test2/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:27:36 GMT
+
+
+2015-06-25 13:19:51,768
+send Response to 0:0:0:0:0:0:0:1:21445
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:51,770
+send Response to 0:0:0:0:0:0:0:1:21446
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:51,791
+receive Request from 0:0:0:0:0:0:0:1:21447
+GET /test2/resource/%E8%8B%B9%E6%9E%9CiWatch%E6%99%BA%E8%83%BD%E6%89%8B%E8%A1%A8_%E9%AB%98%E6%B8%85.mp4 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept-Encoding: identity;q=1, *;q=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/test2/index.html
+Accept-Language: zh-CN,zh;q=0.8
+Range: bytes=0-
+
+
+2015-06-25 13:19:51,791
+receive Request from 0:0:0:0:0:0:0:1:21448
+GET /test2/resource/Destiny's%20Child%20-%20Say%20My%20Name.mp3 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept-Encoding: identity;q=1, *;q=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/test2/index.html
+Accept-Language: zh-CN,zh;q=0.8
+Range: bytes=0-
+
+
+2015-06-25 13:19:51,796
+send Response to 0:0:0:0:0:0:0:1:21448
+HTTP/1.1 206 Partial Content
+Content-type:audio/mpeg
+Date:Thu, 25 Jun 2015 05:19:51 GMT
+Content-Length:10827610
+Last-Modified:Thu, 25 Jun 2015 05:19:51 GMT
+Content-Range:bytes 0-10827609/10827610
+
+
+2015-06-25 13:19:51,796
+send Response to 0:0:0:0:0:0:0:1:21447
+HTTP/1.1 206 Partial Content
+Content-type:video/mpeg4
+Date:Thu, 25 Jun 2015 05:19:51 GMT
+Content-Length:5992139
+Last-Modified:Thu, 25 Jun 2015 05:19:51 GMT
+Content-Range:bytes 0-5992138/5992139
+
+
+2015-06-25 13:19:51,969
+receive Request from 0:0:0:0:0:0:0:1:21449
+GET /test2/resource/43.swf HTTP/1.1
+Host: localhost
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+X-Requested-With: ShockwaveFlash/18.0.0.160
+Accept: */*
+Referer: http://localhost/test2/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:27:36 GMT
+
+
+2015-06-25 13:19:51,971
+send Response to 0:0:0:0:0:0:0:1:21449
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:19:52,037
+receive Request from 0:0:0:0:0:0:0:1:21454
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/test2/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:19:52,037
+send Response to 0:0:0:0:0:0:0:1:21454
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:47:55,858
+receive Request from 0:0:0:0:0:0:0:1:22471
+GET / HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:47:55,861
+send Response to 0:0:0:0:0:0:0:1:22471
+HTTP/1.1 307 Temporary Redirect
+
+
+2015-06-25 13:47:55,863
+receive Request from 0:0:0:0:0:0:0:1:22470
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:18:09 GMT
+
+
+2015-06-25 13:47:55,864
+send Response to 0:0:0:0:0:0:0:1:22470
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:47:55,873
+receive Request from 0:0:0:0:0:0:0:1:22469
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:47:55,874
+send Response to 0:0:0:0:0:0:0:1:22469
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:48:05,626
+send Response to 0:0:0:0:0:0:0:1:22468
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:48:05,626
+send Response to 0:0:0:0:0:0:0:1:22472
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:07,892
+receive Request from 0:0:0:0:0:0:0:1:22510
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:18:09 GMT
+
+
+2015-06-25 13:49:07,893
+send Response to 0:0:0:0:0:0:0:1:22510
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:49:07,906
+receive Request from 0:0:0:0:0:0:0:1:22515
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:49:07,907
+send Response to 0:0:0:0:0:0:0:1:22515
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:10,129
+receive Request from 0:0:0:0:0:0:0:1:22514
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 12:18:09 GMT
+
+
+2015-06-25 13:49:10,130
+send Response to 0:0:0:0:0:0:0:1:22514
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:49:10,136
+receive Request from 0:0:0:0:0:0:0:1:22513
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:49:10,136
+send Response to 0:0:0:0:0:0:0:1:22513
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:17,890
+send Response to 0:0:0:0:0:0:0:1:22512
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:17,890
+send Response to 0:0:0:0:0:0:0:1:22511
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:27,891
+send Response to 0:0:0:0:0:0:0:1:22517
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:41,113
+receive Request from 0:0:0:0:0:0:0:1:22532
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:49:41,117
+send Response to 0:0:0:0:0:0:0:1:22532
+HTTP/1.1 200 OK
+Content-type:text/html
+Date:Thu, 25 Jun 2015 05:49:41 GMT
+Content-Length:1374
+Last-Modified:Thu, 25 Jun 2015 05:49:41 GMT
+
+
+2015-06-25 13:49:41,136
+receive Request from 0:0:0:0:0:0:0:1:22533
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:49:41,137
+send Response to 0:0:0:0:0:0:0:1:22533
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:43,008
+receive Request from 0:0:0:0:0:0:0:1:22536
+GET /index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+If-Modified-Since: Thu, 25 Jun 2015 05:49:41 GMT
+
+
+2015-06-25 13:49:43,010
+send Response to 0:0:0:0:0:0:0:1:22536
+HTTP/1.1 304 Not Modified
+
+
+2015-06-25 13:49:43,015
+receive Request from 0:0:0:0:0:0:0:1:22537
+GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.124 Safari/537.36
+Accept: */*
+Referer: http://localhost/index.html
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+
+
+2015-06-25 13:49:43,016
+send Response to 0:0:0:0:0:0:0:1:22537
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:53,010
+send Response to 0:0:0:0:0:0:0:1:22538
+HTTP/1.1 400 Bad Request
+
+
+2015-06-25 13:49:53,010
+send Response to 0:0:0:0:0:0:0:1:22539
+HTTP/1.1 400 Bad Request
+
+

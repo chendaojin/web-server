@@ -1,0 +1,211 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网页设计大赛</title>
+<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function tiaozhuan(idn){
+	var t = $("#"+idn).offset().top;
+	$('html,body').animate({scrollTop:t-50},'normal');
+}
+</script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div id="nav" class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">网页设计大赛</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="javascript:" onclick="tiaozhuan('menu0')">页首</a></li>
+        <li><a href="javascript:" onclick="tiaozhuan('menu1')">竞赛简介</a></li>
+        <li><a href="javascript:" onclick="tiaozhuan('menu2')">作品要求</a></li>
+        <li><a href="javascript:" onclick="tiaozhuan('menu3')">竞赛流程</a></li>
+        <li><a href="javascript:" onclick="tiaozhuan('menu4')">奖项评比</a></li>
+	<li><a href="javascript:" onclick="tiaozhuan('menu5')">报名方式</a></li>
+	<li><a href="javascript:" onclick="tiaozhuan('menu6')">注意事项</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="" data-toggle="modal" data-target="#myModal">关于</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="jumbotron" id="menu0">
+</div>
+<div id="content">
+	
+	<div class="menu">
+    <span class="square"></span>
+    <span class="title" id="menu1">竞赛简介</span>
+    </div>
+    <div class="text">
+<h1>竞赛目的</h1>
+    <p>为了激发大学生学习计算机知识的兴趣和潜能，提高其运用信息技术解决实际问题的综合能力，进一步增强大学生的动手能力和创新意识，培养学生拼搏进取，积极向上的精神状态。宣城校区将举办网页设计大赛。此大赛旨在加强学生计算机训练，提高学生计算机水平，丰富校园文化生活，积极推动和谐校园建设，展现青年学生精神风貌。</p>
+
+    <h1>竞赛主题</h1>
+    
+    <ul >
+    <li>青春源于别样的创作</li>
+    <li>我的青春谁做主</li>
+    <li>让梦想飞</li>
+    <li>“雷锋月”网站征集
+    	<ul>
+    	<li style="list-style-type:none">a. 需要有表彰校区好人好事专区</li>
+        <li style="list-style-type:none">b. 收录宣城博物馆内的好人好事的事迹</li>
+        <li style="list-style-type:none">c. 可设置创协活动专区</li>
+    	</ul>
+    </li>
+</ul>
+<h1>组办单位</h1>
+<p>合肥工业大学宣城校区信息工程系创新创业协会 主办</p>
+<p>合肥工业大学宣城校区软件工程创新实验室 协办</p>
+
+    </div>
+    
+    
+    <div class="menu">
+    <span class="square"></span>
+    <span class="title" id="menu2">作品要求</span>
+    </div>
+    <div class="text">
+    <p>1. 作品内容健康向上，符合本次竞赛作品征集要求；</p>
+    <p>2. 内容新颖、详细而充实，具有观赏性，清晰表达设计意图；</p>
+    <p>3. 网页的深度至少包括二级页面，以3-5个页面为适宜，网页作品大小不超过50MB（尽量少用音频、视频文件）；</p>
+    <p>4. 作品中所有文件均要以小写字母或阿拉伯数字命名，包括文件名及其后缀名；</p>
+    <p>5. 要求能在win7或win xp操作系统上运行，显示分辨率以1024×768为标准，网页采用Internet Explorer10.0浏览（请在作品中注明最佳浏览效果浏览器）；</p>
+    <p>6. 作品要求不使用插件、模版，可以用HTML、css、js、Jquery等；</p>
+    <p>7. 作品要求是静态网页，网页首页文件必须命名为index.html（推荐）、index.htm；</p>
+    <p>8. 作品需附上简介，包括作者设计意图、作品的特点、作品说明、个人心得、创作思路等，保存为introduce.doc作为决赛评判的重要依据，详见注意事项；</p>
+    <p>9. 参赛作品为参赛者亲自设计制作，不能由他人代替，严禁抄袭他人作品，应严格遵守国家有关法律法规。</p>
+    </div>
+    
+ 
+	<div class="menu">
+    <span class="square"></span>
+    <span class="title" id="menu3">竞赛流程</span>
+    </div>
+
+    <div class="text">
+    	<h1>报名阶段</h1>
+        <p>2014年12月1日前提交的符合要求作品均将被被认定为大赛有效作品，无效作品大赛将发送回执；</p>        
+        <h1>初赛阶段</h1>
+        <p>提交上来的作品经过创协竞赛部审定符合本次大赛要求的作品，并由软件实验室做技术评定，并拟定入围决赛名单；</p>
+        
+ 		<h1>决赛阶段</h1>
+        <p>1. 入围决赛作品参赛选手需准备ppt答辩，规定3分钟，对自己的作品的创意、技术进行介绍，软件实验室工作人员将对此进一步做出技术分评定；</p>
+		<p>2. 创协竞赛部将进入决赛的作品上传到网上，并在公共账号上发表投票链接，进行网络人气投票；</p>
+		<p>3. 汇总技术分和人气分，得出总分排名并公示结果；</p>	
+        
+        <h1>颁奖</h1>
+        <p>按照奖项设置对获奖选手颁发证书即相应奖品；</p>
+    </div>
+     
+     	
+	<div class="menu">
+    <span class="square"></span>
+    <span class="title" id="menu4">奖项评比</span>
+    </div>
+    
+    
+    <div class="text">
+     <h1>奖项设置</h1>
+   <p>1. 特等奖1名，颁发获奖证书并获得奖品；</p>
+   <p>2. 一等奖为入围决赛的前10%，颁发获奖证书并获得奖品；</p>
+   <p>3. 二等奖为入围决赛的前20%，颁发获奖证书；</p>
+   <p>4. 三等奖为入围决赛的前40%，颁发获奖证书；</p>
+   
+    <h1>评比方式</h1>
+	<p>1. 由Web实验室负责初赛筛选，个人作品与团体作品分开评选，通过初赛的  
+     选手我们会以短信的方式进行通知；</p>
+	<p>2. 通过初赛的选手进行决赛，决赛分数通过ppt现场答辩 ，实验室打分，  
+     以及网络人气投票三部分决定（决赛时间另行通知）;</p>
+    <p>3. 根据竞赛结果进行公示；</p>
+    
+    
+    <h1>相关奖励</h1>
+    <p>优胜者颁发证书和奖品，并获得相应的学分。</p>
+
+    </div>
+    
+    <div class="menu">
+    <span class="square"></span>
+    <span class="title" id="menu5">报名方式</span>
+    </div>
+    <div class="text">
+    <p>1. 学生参赛采取以小组或个人报名参赛的方式，各参赛小组需为本组命名一个代号；</p>
+    <p>2. 有意参赛者，填写报名表（<a href="http://pan.baidu.com/s/1eQ07TTo" target="_blank" >http://pan.baidu.com/s/1eQ07TTo</a>）发送至邮箱<br/>&nbsp;&nbsp;&nbsp;&nbsp;1980337171@qq.com&nbsp;或&nbsp;2810512385@qq.com；</p>
+    <p>3. 学生报名时务必填好小组成员详细联系资料；</p>
+    <p>4. 参赛选手自由组合，小组成员不超过5人；</p>
+    <p>5. 个人只能提交一个作品，不可同时参与多个作品的制作。</p>
+    </div>
+    
+	<div class="menu">
+    <span class="square"></span>
+    <span class="title" id="menu6">注意事项</span>
+    </div>
+    <div class="text">
+    <p>1. 参赛作品必须用压缩软件打包为.rar或.zip格式，存放所有作品文件等，请用系名+年级+参赛选手姓名命名或系名+年级+参赛队伍队长姓名命名，如“信息工程系12级李明”。</p>
+    <img src="11.png" >
+    <p>2. 压缩包中必须包括上网包（存放参赛作品的相关资源，如最终的网页作品、所用的图片、字体等相关资源）；</p>
+    <p>一个Word 文档文件introduce.doc（作品介绍等：存放网页的代码，请以txt格式保存代码，文件名自定义）；一个excel表格文件enroll.xls（报名信息：附上参赛者的姓名、年级、班级、学号、联系电话、QQ、邮箱）；有作品源代码需要提交则需建立一个档案包（存放网页的代码，请以txt格式保存代码，文件名自定义）；有需提交软硬件环境则需建立一个环境包。</p>
+    <img src="21.png" ><br><br><img src="22.png" >
+    <p>3. 报名表及相关规则下载地址：<a href="http://pan.baidu.com/s/1eQ07TTo" target="_blank">http://pan.baidu.com/s/1eQ07TTo</a></p>
+    </div>
+</div>
+
+
+
+<footer class="footer ">
+	<div class="seal">
+		<img class="myseal" src="hfut.png">&nbsp;&nbsp;
+		<img class="myseal" src="stiea.png">
+	</div>
+	<div class="about">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;信息工程系创新创业协会&nbsp;&nbsp;&nbsp;&nbsp;信息工程系软件工程创新实验室</p>
+	</div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">关于</h4>
+      </div>
+      <div class="modal-body">
+        <h2>本网页由</h2>
+	<p>信息工程系软件工程创新实验室制作</p>
+	<p>信息工程系创新创业协会保留最终解释权</p>
+	<h2>联系方式</h2>
+	<p>创协官方QQ号：2810512385</p>
+	<p>创赛工大（竞赛咨询服务账号）QQ号：1980337171</p>
+	<p>软件工程创新基地交流群：340253485</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" >退出</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

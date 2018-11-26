@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<xml>
+
+	<status_codes>
+		<status key="200" desc="OK" cnDesc="成功" />
+		<status key="206" desc="Partial Content" cnDesc="部分内容" />
+		<status key="307" desc="Temporary Redirect" cnDesc="临时重定向" />
+		<status key="304" desc="Not Modified" cnDesc="未修改" />
+		<status key="400" desc="Bad Request" cnDesc="请求无效" />
+		<status key="404" desc="Not Found" cnDesc="文件不存在" />
+		<status key="500" desc="Internal Server Error" cnDesc="服务器内部错误" />
+	</status_codes>
+
+	<content_types>
+		<content_type suffix="html" type="text/html" />
+		<content_type suffix="css" type="text/css" />
+		<content_type suffix="js" type="application/x-javascript" />
+		<content_type suffix="jpg" type="image/jpeg" />
+		<content_type suffix="jpeg" type="image/jpeg" />
+		<content_type suffix="bmp" type="image/bmp" />
+		<content_type suffix="png" type="image/png" />
+		<content_type suffix="gif" type="image/gif" />
+		<content_type suffix="avi" type="video/avi" />
+		<content_type suffix="mp4" type="video/mpeg4" />
+		<content_type suffix="rmvb" type="application/vnd.rn-realmedia-vbr" />
+		<content_type suffix="swf" type="application/x-shockwave-flash" />
+		<content_type suffix="mpg" type="video/mpg" />
+		<content_type suffix="mpeg" type="video/mpg" />
+		<content_type suffix="mp3" type="audio/mpeg" />
+	</content_types>
+
+</xml>

@@ -1,0 +1,20 @@
+2015-06-25 13:19:38,175 load log-configuration successfully
+2015-06-25 13:19:38,186 file update successfully
+2015-06-25 13:19:38,227 load system-configuration successfully
+2015-06-25 13:19:38,227 load user-configuration successfully
+2015-06-25 13:19:38,228 load protocol-configuration successfully
+2015-06-25 13:19:38,229 load error-page successfully
+2015-06-25 13:19:40,272 listen shutdown port: 12543
+2015-06-25 13:19:40,272 server start with port: 80
+2015-06-25 13:47:45,580 shutdown server succeesfully
+2015-06-25 13:47:45,588 write configuration userCfg.xml successfully
+2015-06-25 13:47:50,238 load log-configuration successfully
+2015-06-25 13:47:50,249 file update successfully
+2015-06-25 13:47:50,308 load system-configuration successfully
+2015-06-25 13:47:50,308 load user-configuration successfully
+2015-06-25 13:47:50,309 load protocol-configuration successfully
+2015-06-25 13:47:50,309 load error-page successfully
+2015-06-25 13:47:52,557 listen shutdown port: 12543
+2015-06-25 13:47:52,557 server start with port: 80
+2015-06-25 14:47:46,735 shutdown server succeesfully
+2015-06-25 14:47:46,743 write configuration userCfg.xml successfully

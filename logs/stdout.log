@@ -1,0 +1,9 @@
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at server.Accept.run(Accept.java:11)
+	at java.lang.Thread.run(Unknown Source)

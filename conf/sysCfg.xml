@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+
+<xml> 
+  <index_page>/index.html</index_page>  
+  <error_page>/error.html</error_page>  
+  <default_type>text/html</default_type>  
+  <shutdown_port>12543</shutdown_port>  
+  <shutdown_word>shutdown</shutdown_word>  
+  <version>HTTP/1.1</version>  
+  <data_lenth>1024</data_lenth>  
+  <web_root>web</web_root>  
+  <conf_root>conf</conf_root>  
+  <logs_root>logs</logs_root>  
+  <req_regex>(?&lt;method&gt;GET|POST)\s+(?&lt;path&gt;\S+)\s+(?&lt;version&gt;.+)</req_regex>  
+  <header_regex>(?&lt;key&gt;.+?):\s*(?&lt;value&gt;.*)</header_regex>  
+  <path_match>/\w*</path_match>  
+  <root_match>/\w*/</root_match>  
+  <full_match>(/\S*)+/\S+\.\S+</full_match> 
+</xml>

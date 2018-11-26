@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+
+<xml> 
+  <port>80</port>  
+  <charset>UTF-8</charset>  
+  <default_project/>  
+  <is_cached>true</is_cached> 
+</xml>
